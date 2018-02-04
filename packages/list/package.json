@@ -1,10 +1,13 @@
 {
-  "name": "@krishnaxv/list",
+  "name": "list",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "browser": "dist/bundle.umd.js",
   "license": "MIT",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
-  }
+  },
+  "files": ["dist"]
 }
