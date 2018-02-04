@@ -1,0 +1,24 @@
+{
+  "name": "yarn-workspace",
+  "description": "UI kit demonstration with react-styleguidist.",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "@babel/preset-react": "^7.0.0-beta.39",
+    "babel-loader": "8.0.0-beta.0",
+    "lerna": "^2.5.1",
+    "prettier": "^1.10.2",
+    "react-styleguidist": "^6.2.2",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write 'packages/**/src/**/*.js'",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  }
+}
